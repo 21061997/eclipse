@@ -13,8 +13,15 @@ public class HelloGIt {
 		
 		soma = (n1 + n2);
 		
-		System.out.println("A suma dos dois número é: " + soma);
+		if(n1 == n2) {
+			System.out.println("Número é invalido");
+		}else {
+	
+			System.out.println("A suma dos dois número é: " + soma);
+			
+		}
 		
+	
 		
 		
 		
